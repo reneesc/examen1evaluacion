@@ -3128,6 +3128,7 @@ p {
 .breadcrumbs-style {
   border-radius: 8px;
   padding: 1px 32px 16px;
+  
 }
 @media (max-width: 767px) {
   .breadcrumbs-style {
@@ -3286,7 +3287,7 @@ p {
   font-size: 24px;
 }
 .breadcrumbs-style.breadcrumbs-style-1 {
-  background-color: #fafafa;
+  background-color: #00acb2;
 }
 .breadcrumbs-style.breadcrumbs-style-1
   .breadcrumb-left
@@ -3299,14 +3300,14 @@ p {
   .breadcrumb
   .breadcrumb-item
   + .breadcrumb-item::before {
-  color: #542ded;
+  color: #00d4e0;
 }
 .breadcrumbs-style.breadcrumbs-style-1
   .breadcrumb-left
   .breadcrumb
   .breadcrumb-item
   a {
-  color: #7d7d7d;
+  color: #000;
 }
 .breadcrumbs-style.breadcrumbs-style-1
   .breadcrumb-left
@@ -3336,7 +3337,7 @@ p {
   color: #542ded;
 }
 .breadcrumbs-style.breadcrumbs-style-2 {
-  background-color: #542ded;
+  background-color: #000;
 }
 .breadcrumbs-style.breadcrumbs-style-2
   .breadcrumb-left
@@ -9752,6 +9753,7 @@ p {
   .content-card-style-1 .content-card-content .sub-title {
     font-size: 20px;
     line-height: 26px;
+    
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -11090,8 +11092,8 @@ p {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #542ded;
-  color: #fff;
+  background: red;
+  color: white;
   margin-bottom: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
