@@ -573,499 +573,76 @@
                     </div>
                 </div>
                 <!-- main navbar Ends -->
-            </div>
-            <div class="overlay-7"></div>
-        </header>
-    </div>
-    <!--====== Navbar Style 7 Part Ends ======-->
-
-    <!--====== Header Style 1 Part Start ======-->
-    <section class="header-style-1">
-        <div class="header-big">
-            <div class="header-items-active">
-                <div class="single-header-item bg_cover"
-                    style="background-image: url(assets/images/header-1/header-big-1.jpg);">
-                    <div class="header-item-content">
-                        <h3 class="title">Don’t say it with flowers: A NOMOS watch is a gift that lasts</h3>
-                        <a href="javascript:void(0)" class="link">Our Valentine's Day collection</a>
-                    </div>
-                </div>
-                <div class="single-header-item bg_cover"
-                    style="background-image: url(assets/images/header-1/header-big-2.jpg);">
-                    <div class="header-item-content">
-                        <h3 class="title">Don’t say it with flowers: A NOMOS watch is a gift that lasts</h3>
-                        <a href="javascript:void(0)" class="link">Our Valentine's Day collection</a>
-                    </div>
-                </div>
-                <div class="single-header-item bg_cover"
-                    style="background-image: url(assets/images/header-1/header-big-1.jpg);">
-                    <div class="header-item-content">
-                        <h3 class="title">Don’t say it with flowers: A NOMOS watch is a gift that lasts</h3>
-                        <a href="javascript:void(0)" class="link">Our Valentine's Day collection</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="header-min">
-            <div class="header-min-item product-style-25 bg_cover"
-                style="background-image: url(assets/images/header-1/header-min-1.jpg);">
-                <div class="product-content">
-                    <h4 class="title"><a href="product-details-page.html">Metro 38 Date</a></h4>
-                    <p>Reference 1102</p>
-                    <a href="javascript:void(0)" class="main-btn primary-btn-border"> <img src="assets/images/icon-svg/cart-5.svg" alt="">$
-                        399</a>
-                </div>
-            </div>
-            <div class="header-min-item product-style-25 bg_cover"
-                style="background-image: url(assets/images/header-1/header-min-2.jpg);">
-                <div class="product-content">
-                    <h4 class="title"><a href="product-details-page.html">Metro 38 Date</a></h4>
-                    <p>Reference 1102</p>
-                    <a href="javascript:void(0)" class="main-btn primary-btn-border"> <img src="assets/images/icon-svg/cart-5.svg" alt="">$
-                        399</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--====== Header Style 1 Part Ends ======-->
-
-    <!--====== Content Card Style 4 Part Start ======-->
-    <section class="content-card-style-4 pt-70 pb-100">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-7 col-sm-8">
-                    <div class="single-content mt-15 text-center">
-                        <div class="content-icon">
-                            <i class="mdi mdi-truck-fast"></i>
+                <div class="container px-5 my-5">
+                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="correoElectronico" type="email" placeholder="Correo Electrónico" data-sb-validations="required,email" />
+                            <label for="correoElectronico">Correo Electrónico</label>
+                            <div class="invalid-feedback" data-sb-feedback="correoElectronico:required">Correo Electrónico is required.</div>
+                            <div class="invalid-feedback" data-sb-feedback="correoElectronico:email">Correo Electrónico Email is not valid.</div>
                         </div>
-                        <div class="content-content">
-                            <h4 class="title"><a href="javascript:void(0)">Two-hour delivery</a></h4>
-                            <p>Available in most metros on selected in-stock products</p>
-                            <a href="javascript:void(0)" class="more">learn more</a>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="prefijoTelefonico" type="text" placeholder="Prefijo Telefónico" data-sb-validations="required" />
+                            <label for="prefijoTelefonico">Prefijo Telefónico</label>
+                            <div class="invalid-feedback" data-sb-feedback="prefijoTelefonico:required">Prefijo Telefónico is required.</div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-7 col-sm-8">
-                    <div class="single-content mt-15 text-center">
-                        <div class="content-icon">
-                            <i class="mdi mdi-message-text"></i>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="numeroDeTelefono" type="text" placeholder="Número de Teléfono" data-sb-validations="required" />
+                            <label for="numeroDeTelefono">Número de Teléfono</label>
+                            <div class="invalid-feedback" data-sb-feedback="numeroDeTelefono:required">Número de Teléfono is required.</div>
                         </div>
-                        <div class="content-content">
-                            <h4 class="title"><a href="javascript:void(0)">Get help buying</a></h4>
-                            <p>Have a question? Call a Specialist or chat online for help</p>
-                            <a href="contact-page.html" class="more">Contact us</a>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="pais" type="text" placeholder="País" data-sb-validations="required" />
+                            <label for="pais">País</label>
+                            <div class="invalid-feedback" data-sb-feedback="pais:required">País is required.</div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-7 col-sm-8">
-                    <div class="single-content mt-15 text-center">
-                        <div class="content-icon">
-                            <i class="mdi mdi-ticket-percent"></i>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="region" type="text" placeholder="Región" data-sb-validations="required" />
+                            <label for="region">Región</label>
+                            <div class="invalid-feedback" data-sb-feedback="region:required">Región is required.</div>
                         </div>
-                        <div class="content-content">
-                            <h4 class="title"><a href="javascript:void(0)">Find the card for you</a></h4>
-                            <p>Get 3% Daily Cash with special financing offers from us</p>
-                            <a href="javascript:void(0)" class="more">learn more</a>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="ciudad" type="text" placeholder="Ciudad" data-sb-validations="required" />
+                            <label for="ciudad">Ciudad</label>
+                            <div class="invalid-feedback" data-sb-feedback="ciudad:required">Ciudad is required.</div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--====== Content Card Style 4 Part Ends ======-->
-
-    <!--====== Product Style 1 Part Start ======-->
-    <section class="product-wrapper pt-100 pb-70">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="mb-50">
-                        <h1 class="heading-1 font-weight-700">Featured Items</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="product-style-1 mt-30">
-                        <div class="product-image">
-                            <span class="icon-text text-style-1">NEW</span>
-                            <div class="product-active">
-                                <div class="product-item active">
-                                    <img src="assets/images/product-1/product-1.jpg" alt="product">
-                                </div>
-                                <div class="product-item">
-                                    <img src="assets/images/product-1/product-2.jpg" alt="product">
-                                </div>
-                            </div>
-                            <a class="add-wishlist" href="javascript:void(0)">
-                                <i class="mdi mdi-heart-outline"></i>
-                            </a>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="nombreDeLaCalle" type="text" placeholder="Nombre de la calle" data-sb-validations="required" />
+                            <label for="nombreDeLaCalle">Nombre de la calle</label>
+                            <div class="invalid-feedback" data-sb-feedback="nombreDeLaCalle:required">Nombre de la calle is required.</div>
                         </div>
-                        <div class="product-content text-center">
-                            <h4 class="title"><a href="product-details-page.html">Metro 38 Date</a></h4>
-                            <p>Reference 1102</p>
-                            <a href="javascript:void(0)" class="main-btn secondary-1-btn">
-                                <img src="assets/images/icon-svg/cart-7.svg" alt="">
-                                $ 399
-                            </a>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="numeroDeLaCalle" type="text" placeholder="Número de la calle" data-sb-validations="required" />
+                            <label for="numeroDeLaCalle">Número de la calle</label>
+                            <div class="invalid-feedback" data-sb-feedback="numeroDeLaCalle:required">Número de la calle is required.</div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="product-style-1 mt-30">
-                        <div class="product-image">
-                            <span class="icon-text text-style-1">20% off</span>
-                            <div class="product-active">
-                                <div class="product-item active">
-                                    <img src="assets/images/product-1/product-5.jpg" alt="product">
-                                </div>
-                                <div class="product-item">
-                                    <img src="assets/images/product-1/product-6.jpg" alt="product">
-                                </div>
-                            </div>
-                            <a class="add-wishlist" href="javascript:void(0)">
-                                <i class="mdi mdi-heart-outline"></i>
-                            </a>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="escaleraPortalPuerta" type="text" placeholder="Escalera/Portal/Puerta" data-sb-validations="required" />
+                            <label for="escaleraPortalPuerta">Escalera/Portal/Puerta</label>
+                            <div class="invalid-feedback" data-sb-feedback="escaleraPortalPuerta:required">Escalera/Portal/Puerta is required.</div>
                         </div>
-                        <div class="product-content text-center">
-                            <h4 class="title"><a href="product-details-page.html">Lady Shoe</a></h4>
-                            <p>Reference 1103</p>
-                            <a href="javascript:void(0)" class="main-btn secondary-1-btn">
-                                <img src="assets/images/icon-svg/cart-7.svg" alt="">
-                                $ 399
-                            </a>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="plantaYLetra" type="text" placeholder="Planta Y Letra" data-sb-validations="required" />
+                            <label for="plantaYLetra">Planta Y Letra</label>
+                            <div class="invalid-feedback" data-sb-feedback="plantaYLetra:required">Planta Y Letra is required.</div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="product-style-1 mt-30">
-                        <div class="product-image">
-                            <div class="product-active">
-                                <div class="product-item active">
-                                    <img src="assets/images/product-1/product-3.jpg" alt="product">
-                                </div>
-                                <div class="product-item">
-                                    <img src="assets/images/product-1/product-4.jpg" alt="product">
-                                </div>
-                            </div>
-                            <a class="add-wishlist" href="javascript:void(0)">
-                                <i class="mdi mdi-heart-outline"></i>
-                            </a>
-                        </div>
-                        <div class="product-content text-center">
-                            <h4 class="title"><a href="product-details-page.html">Casio 09 Date</a></h4>
-                            <p>Reference 1112</p>
-                            <a href="javascript:void(0)" class="main-btn secondary-1-btn">
-                                <img src="assets/images/icon-svg/cart-7.svg" alt="">
-                                $ 399
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="product-style-1 mt-30">
-                        <div class="product-image">
-                            <div class="product-active">
-                                <div class="product-item active">
-                                    <img src="assets/images/product-1/product-7.jpg" alt="product">
-                                </div>
-                                <div class="product-item">
-                                    <img src="assets/images/product-1/product-8.jpg" alt="product">
-                                </div>
-                            </div>
-                            <a class="add-wishlist" href="javascript:void(0)">
-                                <i class="mdi mdi-heart-outline"></i>
-                            </a>
-                        </div>
-                        <div class="product-content text-center">
-                            <h4 class="title"><a href="product-details-page.html">Man's Shoe</a></h4>
-                            <p>Reference 102</p>
-                            <a href="javascript:void(0)" class="main-btn secondary-1-btn">
-                                <img src="assets/images/icon-svg/cart-7.svg" alt="">
-                                $ 399
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="product-style-1 mt-30">
-                        <div class="product-image">
-                            <div class="product-active">
-                                <div class="product-item active">
-                                    <img src="assets/images/product-1/product-9.jpg" alt="product">
-                                </div>
-                                <div class="product-item">
-                                    <img src="assets/images/product-1/product-10.jpg" alt="product">
-                                </div>
-                            </div>
-                            <a class="add-wishlist" href="javascript:void(0)">
-                                <i class="mdi mdi-heart-outline"></i>
-                            </a>
-                        </div>
-                        <div class="product-content text-center">
-                            <h4 class="title"><a href="product-details-page.html">Polo T Shirt</a></h4>
-                            <p>Reference 1202</p>
-                            <a href="javascript:void(0)" class="main-btn secondary-1-btn">
-                                <img src="assets/images/icon-svg/cart-7.svg" alt="">
-                                $ 399
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="product-style-1 mt-30">
-                        <div class="product-image">
-                            <span class="icon-text text-style-1">40% off</span>
-                            <div class="product-active">
-                                <div class="product-item active">
-                                    <img src="assets/images/product-1/product-11.jpg" alt="product">
-                                </div>
-                                <div class="product-item">
-                                    <img src="assets/images/product-1/product-12.jpg" alt="product">
-                                </div>
-                            </div>
-                            <a class="add-wishlist" href="javascript:void(0)">
-                                <i class="mdi mdi-heart-outline"></i>
-                            </a>
-                        </div>
-                        <div class="product-content text-center">
-                            <h4 class="title"><a href="product-details-page.html">Lotto T Shirt</a></h4>
-                            <p>Reference 112</p>
-                            <a href="javascript:void(0)" class="main-btn secondary-1-btn">
-                                <img src="assets/images/icon-svg/cart-7.svg" alt="">
-                                $ 399
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--====== Product Style 1 Part Ends ======-->
-
-    <!--====== Product Style 7 Part Start ======-->
-    <section class="product-wrapper pt-100 pb-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="mb-50">
-                        <h1 class="heading-1 font-weight-700">Recent Items</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="product-style-7 mt-30">
-                        <div class="product-image">
-                            <div class="product-active">
-                                <div class="product-item active">
-                                    <img src="assets/images/product-4/product-1.jpg" alt="product">
-                                </div>
-                                <div class="product-item">
-                                    <img src="assets/images/product-4/product-2.jpg" alt="product">
-                                </div>
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center mb-3">
+                                <div class="fw-bolder">Form submission successful!</div>
+                                <p>To activate this form, sign up at</p>
+                                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                             </div>
                         </div>
-                        <div class="product-content">
-                            <ul class="product-meta">
-                                <li>
-                                    <a class="add-wishlist" href="javascript:void(0)">
-                                        <i class="mdi mdi-heart-outline"></i>
-                                        Add to Favorite
-                                    </a>
-                                </li>
-                                <li>
-                                    <span><i class="mdi mdi-star"></i> 4.5/5</span>
-                                </li>
-                            </ul>
-                            <h4 class="title"><a href="product-details-page.html">Metro 38 Date</a></h4>
-                            <p>Reference 1102</p>
-                            <span class="price">$ 399</span>
-                            <a href="javascript:void(0)" class="main-btn primary-btn">
-                                <img src="assets/images/icon-svg/cart-4.svg" alt="">
-                                Add to Cart
-                            </a>
+                        <div class="d-none" id="submitErrorMessage">
+                            <div class="text-center text-danger mb-3">Error sending message!</div>
                         </div>
-                    </div>
+                        <div class="d-grid">
+                            <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="col-lg-6">
-                    <div class="product-style-7 mt-30">
-                        <div class="product-image">
-                            <div class="product-active">
-                                <div class="product-item active">
-                                    <img src="assets/images/product-4/product-3.jpg" alt="product">
-                                </div>
-                                <div class="product-item">
-                                    <img src="assets/images/product-4/product-4.jpg" alt="product">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <ul class="product-meta">
-                                <li>
-                                    <a class="add-wishlist" href="javascript:void(0)">
-                                        <i class="mdi mdi-heart-outline"></i>
-                                        Add to Favorite
-                                    </a>
-                                </li>
-                                <li>
-                                    <span><i class="mdi mdi-star"></i> 4.5/5</span>
-                                </li>
-                            </ul>
-                            <h4 class="title"><a href="product-details-page.html">Man's Shoe</a></h4>
-                            <p>Reference 1102</p>
-                            <span class="price">$ 399</span>
-                            <a href="javascript:void(0)" class="main-btn primary-btn">
-                                <img src="assets/images/icon-svg/cart-4.svg" alt="">
-                                Add to Cart
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="product-style-7 mt-30">
-                        <div class="product-image">
-                            <span class="icon-text text-style-1">20% off</span>
-                            <div class="product-active">
-                                <div class="product-item active">
-                                    <img src="assets/images/product-4/product-5.jpg" alt="product">
-                                </div>
-                                <div class="product-item">
-                                    <img src="assets/images/product-4/product-6.jpg" alt="product">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <ul class="product-meta">
-                                <li>
-                                    <a class="add-wishlist" href="javascript:void(0)">
-                                        <i class="mdi mdi-heart-outline"></i>
-                                        Add to Favorite
-                                    </a>
-                                </li>
-                                <li>
-                                    <span><i class="mdi mdi-star"></i> 4.5/5</span>
-                                </li>
-                            </ul>
-                            <h4 class="title"><a href="product-details-page.html">Lotto T Shirt</a></h4>
-                            <p>Reference 1102</p>
-                            <span class="price">$ 399</span>
-                            <a href="javascript:void(0)" class="main-btn primary-btn">
-                                <img src="assets/images/icon-svg/cart-4.svg" alt="">
-                                Add to Cart
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="product-style-7 mt-30">
-                        <div class="product-image">
-                            <div class="product-active">
-                                <div class="product-item active">
-                                    <img src="assets/images/product-4/product-7.jpg" alt="product">
-                                </div>
-                                <div class="product-item">
-                                    <img src="assets/images/product-4/product-8.jpg" alt="product">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <ul class="product-meta">
-                                <li>
-                                    <a class="add-wishlist" href="javascript:void(0)">
-                                        <i class="mdi mdi-heart-outline"></i>
-                                        Add to Favorite
-                                    </a>
-                                </li>
-                                <li>
-                                    <span><i class="mdi mdi-star"></i> 4.5/5</span>
-                                </li>
-                            </ul>
-                            <h4 class="title"><a href="product-details-page.html">Smart Watch</a></h4>
-                            <p>Reference 1102</p>
-                            <span class="price">$ 399</span>
-                            <a href="javascript:void(0)" class="main-btn primary-btn">
-                                <img src="assets/images/icon-svg/cart-4.svg" alt="">
-                                Add to Cart
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="product-style-7 mt-30">
-                        <div class="product-image">
-                            <div class="product-active">
-                                <div class="product-item active">
-                                    <img src="assets/images/product-4/product-9.jpg" alt="product">
-                                </div>
-                                <div class="product-item">
-                                    <img src="assets/images/product-4/product-10.jpg" alt="product">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <ul class="product-meta">
-                                <li>
-                                    <a class="add-wishlist" href="javascript:void(0)">
-                                        <i class="mdi mdi-heart-outline"></i>
-                                        Add to Favorite
-                                    </a>
-                                </li>
-                                <li>
-                                    <span><i class="mdi mdi-star"></i> 4.5/5</span>
-                                </li>
-                            </ul>
-                            <h4 class="title"><a href="product-details-page.html">Smart Gadget</a></h4>
-                            <p>Reference 1102</p>
-                            <span class="price">$ 399</span>
-                            <a href="javascript:void(0)" class="main-btn primary-btn">
-                                <img src="assets/images/icon-svg/cart-4.svg" alt="">
-                                Add to Cart
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="product-style-7 mt-30">
-                        <div class="product-image">
-                            <span class="icon-text text-style-1">Out Of Stoke</span>
-                            <div class="product-active">
-                                <div class="product-item active">
-                                    <img src="assets/images/product-4/product-11.jpg" alt="product">
-                                </div>
-                                <div class="product-item">
-                                    <img src="assets/images/product-4/product-12.jpg" alt="product">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <ul class="product-meta">
-                                <li>
-                                    <a class="add-wishlist" href="javascript:void(0)">
-                                        <i class="mdi mdi-heart-outline"></i>
-                                        Add to Favorite
-                                    </a>
-                                </li>
-                                <li>
-                                    <span><i class="mdi mdi-star"></i> 4.5/5</span>
-                                </li>
-                            </ul>
-                            <h4 class="title"><a href="product-details-page.html">Polo Cap</a></h4>
-                            <p>Reference 1102</p>
-                            <span class="price">$ 399</span>
-                            <a href="javascript:void(0)" class="main-btn primary-btn">
-                                <img src="assets/images/icon-svg/cart-4.svg" alt="">
-                                Add to Cart
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--====== Product Style 7 Part Ends ======-->
-
-    <!--====== Features Part Start ======-->
+                <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+                 <!--====== Features Part Start ======-->
     <section class="features-section pt-100 pb-50 gray-bg">
         <div class="container">
             <div class="row">
