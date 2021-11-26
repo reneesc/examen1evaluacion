@@ -3430,6 +3430,9 @@ p {
 }
 .navbar-style-7 .desktop-logo {
   margin-right: 10px;
+  height: 70px;
+  width: 110px;
+  padding-bottom: 12%;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-style-7 .navbar-container {
