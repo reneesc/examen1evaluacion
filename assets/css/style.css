@@ -7033,18 +7033,6 @@ p {
   font-size: 16px;
   color: #000;
 }
-.checkout-sidebar-price-table .sub-total-price .shipping .value {
-  color: #ff4b22;
-}
-.checkout-sidebar-price-table .sub-total-price .shipping .price {
-  color: #ff4b22;
-}
-.checkout-sidebar-price-table .sub-total-price .discount .value {
-  color: #7cb637;
-}
-.checkout-sidebar-price-table .sub-total-price .discount .price {
-  color: #7cb637;
-}
 .checkout-sidebar-price-table .total-payable {
   padding: 8px 0;
 }
@@ -7062,13 +7050,11 @@ p {
 .checkout-sidebar-price-table .total-payable .payable-price .value {
   line-height: 32px;
   font-size: 14px;
-  color: #000;
   font-weight: 500;
 }
 .checkout-sidebar-price-table .total-payable .payable-price .price {
   line-height: 32px;
   font-size: 16px;
-  color: #000;
   font-weight: 500;
 }
 .checkout-sidebar-price-table .price-table-btn {
@@ -7085,42 +7071,10 @@ p {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-.checkout-sidebar-price-table.checkout-sidebar-price-table-dark
-  .sub-total-price
-  .total-price
-  .value {
-  color: #fff;
-}
-.checkout-sidebar-price-table.checkout-sidebar-price-table-dark
-  .sub-total-price
-  .total-price
-  .price {
-  color: #fff;
-}
-.checkout-sidebar-price-table.checkout-sidebar-price-table-dark
-  .sub-total-price
-  .shipping
-  .value {
-  color: #ff4b22;
-}
-.checkout-sidebar-price-table.checkout-sidebar-price-table-dark
-  .sub-total-price
-  .shipping
-  .price {
-  color: #ff4b22;
-}
-.checkout-sidebar-price-table.checkout-sidebar-price-table-dark
-  .sub-total-price
-  .discount
-  .value {
-  color: #7cb637;
-}
-.checkout-sidebar-price-table.checkout-sidebar-price-table-dark
-  .sub-total-price
-  .discount
-  .price {
-  color: #7cb637;
-}
+
+
+
+
 .checkout-sidebar-price-table.checkout-sidebar-price-table-dark
   .total-payable
   .payable-price
