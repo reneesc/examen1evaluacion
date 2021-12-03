@@ -11213,3 +11213,8 @@ p {
 .clients-logo-section .client-logo-active .slick-slide:focus {
   outline: 0;
 }
+.imagen {
+margin: -20px; 
+background-repeat: no-repeat;
+float: center;
+}
