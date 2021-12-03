@@ -37,9 +37,25 @@
     <!--====== Style CSS ======-->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <link href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css%22%3E">
+    
+
 </head>
 
 <body>
+    <script>
+        function aceptarCookies() {
+          localStorage.aceptaCookies = 'true';
+          cajacookies.style.display = 'none';
+        }
+    </script>
+    <div id="cajacookies" class="alert text-center cookiealert" role="alert">
+        <b>Te gustan las cookies?</b> &#x1F36A; Usamos Cookies para mejorar tu experiencia en nuestra web. <a href="https://cookiesandyou.com/" target="_blank">¿Saber más?</a>
+    
+        <button onclick="aceptarCookies()"  class="btn btn-primary btn-sm acceptcookies"><i class="fa fa-times"></i>
+            Aceptarlas
+        </button>
+    </div>
 
     <!--====== Preloader Part Start ======-->
     <div class="preloader">
@@ -59,8 +75,8 @@
         </div>
     </div>
     <!--====== Preloader Part Ends ======-->
-
     <!--====== Navbar Style 7 Part Start ======-->
+    
     <div class="navigation">
         <header class="navbar-style-7 position-relative">
             <div class="container">
@@ -624,6 +640,7 @@
         </header>
     </div>
     <!--====== Navbar Style 7 Part Ends ======-->
+    
 
     <!--====== Header Style 1 Part Start ======-->
     <section class="header-style-1">
