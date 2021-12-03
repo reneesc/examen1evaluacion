@@ -299,17 +299,17 @@
                                                         <li class="mega-dropdown-list menu-item-has-children">
                                                             <h6 class="heading-6 font-weight-500 mega-title">Componentes</h6>
                                                             <ul>
-                                                                <li><a href="category.html">Tarjetas Gráficas</a></li>
-                                                                <li><a href="category.html">Memoria RAM</a></li>
-                                                                <li><a href="404error.html">Ventilación</a>
+                                                                <li><a href="tarjetasgra.html">Tarjetas Gráficas</a></li>
+                                                                <li><a href="ram.html">Memoria RAM</a></li>
+                                                                <li><a href="ven.html">Ventilación</a>
                                                                 </li>
-                                                                <li><a href="404error.html">Torres/Carcasas</a></li>
+                                                                <li><a href="torres.html">Torres/Carcasas</a></li>
                                                             </ul>
                                                         </li>
                                                         <li class="mega-dropdown-list menu-item-has-children">
                                                             <h6 class="heading-6 font-weight-500 mega-title">Juegos
                                                                 <ul>
-                                                                    <li><a href="404error.html">MMO</a></li>
+                                                                    <li><a href="juegos.html">MMO</a></li>
                                                                     <li><a href="404error.html">MOBA</a></li>
                                                                     <li><a href="404error.html">RPG</a>
                                                                     </li>
@@ -417,6 +417,9 @@
                                                                         </ul>
                                                                     </h6>
                                                                 </li>
+                                                                <li class="mega-dropdown-list">
+                                                                    <img src="assets/images/xbx.jpg" alt="">
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </li>
@@ -456,16 +459,16 @@
                                                                     <li class="mega-dropdown-list menu-item-has-children">
                                                                         <h6 class="heading-6 font-weight-500 mega-title">Juegos
                                                                             <ul>
-                                                                                <li><a href="404error.html">Plataformas</a></li>
-                                                                                <li><a href="404error.html">MOBA</a></li>
-                                                                                <li><a href="404error.html">Interactivos</a>
+                                                                                <li><a href="juegos.html">Plataformas</a></li>
+                                                                                <li><a href="juegos.html">MOBA</a></li>
+                                                                                <li><a href="juegos.html">Interactivos</a>
                                                                                 </li>
-                                                                                <li><a href="404error.html">Aventura RPG</a></li>
+                                                                                <li><a href="juegos.html">Aventura RPG</a></li>
                                                                             </ul>
                                                                         </h6>
                                                                     </li>
                                                                     <li class="mega-dropdown-list">
-                                                                        <img src="assets/images/menu-slider-1.jpg" alt="">
+                                                                        <img src="assets/images/nitnd.jpg" alt="">
                                                                     </li>
                                                                 </ul>
                                                             </div>
@@ -474,6 +477,7 @@
                                                     <!-- sub mega dropdown Ends -->
                                                 </li>
                                                 <li><a href="category.html">Productos</a></li>
+                                                <li><a href="juegos.html">Juegos</a></li>
                                 </ul>
                             </div>
                             <!-- navbar menu Ends -->
@@ -623,19 +627,22 @@
     <!--====== Inicio-Cuestionario ======-->
     <section>
         <div>
-            <h3 style="margin-top: 3%; text-align: center;">Contáctanos para lo que necesites</h3>
+            <h2 style="margin-top: 3%; text-align: center;">Contáctanos para lo que necesites</h2>
             <p style="text-align: center; margin-top: 1%; text-align: center;">Si tienes alguna duda, apunte, reclamación, queja, consejo, escribenos un mensaje con lo que sea, nuestro equipo se encargará de atender a todo. Recibirás una respuesta en 
                 menos de 24 horas.
             </p>
         </div>
+        <div class="container-fluid text-center">
+        <img src="assets/images/question.png" style="height: 200px; width: 200px;">
+        </div>
         <div class="container px-5 my-5">
             <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                 <div class="form-floating mb-3">
-                    <input class="form-control" id="nombre" type="text" placeholder="Nombre" data-sb-validations="required" />
+                    <input class="form-control" id="nombre" type="text" placeholder="Tu nombre" data-sb-validations="required" />
                     <div class="invalid-feedback" data-sb-feedback="nombre:required">Este campo es obligatorio.</div>
                 </div>
                 <div class="form-floating mb-3">
-                    <input class="form-control" id="apellidos" type="text" placeholder="Apellidos" data-sb-validations="required" />
+                    <input class="form-control" id="apellidos" type="text" placeholder="Tus pellidos" data-sb-validations="required" />
                     <div class="invalid-feedback" data-sb-feedback="apellidos:required">Este campo es obligatorio.</div>
                 </div>
                 <div class="form-floating mb-3">
@@ -648,7 +655,7 @@
                     <div class="invalid-feedback" data-sb-feedback="numeroDeTelefono:required">Este campo es obligatorio.</div>
                 </div>
                 <div class="form-floating mb-3">
-                    <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+                    <textarea class="form-control" id="message" type="text" placeholder="¿Que nos quieres decir?" style="height: 10rem;" data-sb-validations="required"></textarea>
 
                     <div class="invalid-feedback" data-sb-feedback="message:required">Este campo es obligatorio.</div>
                 </div>
@@ -660,7 +667,7 @@
                     </div>
                 </div>
                 <div class="d-none" id="submitErrorMessage">
-                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                    <div class="text-center text-danger mb-3">Fallo al enviar el mensaje</div>
                 </div>
                 <div class="d-grid">
                     <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Enviar</button>
